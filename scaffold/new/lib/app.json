@@ -1,0 +1,39 @@
+{
+  "app_id": "{{appId}}",
+  "name": "{{appName}}",
+  "color": "#000000",
+  "description": {
+    "pt_BR": "My awesome app description!",
+    "en": "My awesome app description!"
+  },
+  "website": "https://example.com",
+  "signup_url": "https://example.com/signup",
+  "api_base_uri": {
+    "production": {
+      "uri": "https://api.example.com",
+      "label": "Produção",
+      "default": true
+    }
+  },
+  "authentication": {
+    "type": "basic_auth",
+    "fields": [
+      {
+        "name": "api_key",
+        "label": "API key",
+        "mapping": "username",
+        "type": "text"
+      },
+      {
+        "name": "api_secret",
+        "label": "API secret",
+        "mapping": "password",
+        "type": "password"
+      }
+    ],
+    "ping_request": {
+      "method": "/ping",
+      "params": { "limit": 1 }
+    }
+  }
+}

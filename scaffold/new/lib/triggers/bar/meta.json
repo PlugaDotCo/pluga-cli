@@ -1,0 +1,31 @@
+{
+  "name": {
+    "pt_BR": "Bar",
+    "en": "Bar"
+  },
+  "description": {
+    "pt_BR": "Bar description",
+    "en": "Bar description"
+  },
+  "trigger_fields": {
+    "type": "local",
+    "fields": [
+      {
+        "key": "b",
+        "name": {
+          "pt_BR": "B",
+          "en": "B"
+        },
+        "description": {
+          "pt_BR": "'B' field description",
+          "en": "'B' field description"
+        }
+      }
+    ]
+  },
+  "configuration_fields": [],
+  "trigger_type": "polling",
+  "idempotent": [
+    { "type": "body", "field": "id" }
+  ]
+}

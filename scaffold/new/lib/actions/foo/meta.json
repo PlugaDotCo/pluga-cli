@@ -1,0 +1,30 @@
+{
+  "name": {
+    "pt_BR": "Foo",
+    "en": "Foo"
+  },
+  "description": {
+    "pt_BR": "Foo description",
+    "en": "Foo description"
+  },
+  "action_fields": {
+    "fields": [
+      {
+        "key": "a",
+        "name": {
+          "pt_BR": "A",
+          "en": "A"
+        },
+        "description": {
+          "pt_BR": "'A' field description",
+          "en": "'A' field description"
+        },
+        "required": true,
+        "visible": true,
+        "advanced": false,
+        "field_type": "custom",
+        "data_type": "string"
+      }
+    ]
+  }
+}
