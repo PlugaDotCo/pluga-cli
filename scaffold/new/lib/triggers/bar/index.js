@@ -15,15 +15,14 @@
  */
 exports.handle = function (plg, event) {
   /**
-   * Use `plg.axios` for HTTP requests
+   * Use plg.axios for HTTP requests
    *
    * return plg.axios({
    *   method: 'get',
-   *   url: event.meta.baseURI + '/bar',
-   *   auth: {
-   *     username: event.auth.api_key,
-   *     password: event.auth.api_secret,
-   *   }
+   *   url: `${event.meta.baseURI}/bar`,
+   *   headers: {
+   *     Authorization: `Bearer ${event.auth.access_token}`,
+   *   },
    * }).then(res => res.data).catch((err) => {
    *   throw new Error(err.response.data.error);
    * });

@@ -1,4 +1,0 @@
---require dotenv/config
---reporter dot
---timeout 15000
-test/test_helper.js test/**/*_test.js

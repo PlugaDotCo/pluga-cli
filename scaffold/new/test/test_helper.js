@@ -6,6 +6,8 @@
  * - [chai](https://chaijs.com)
  */
 
+require('dotenv/config');
+
 if (process.env.AXIOS_DEBUG) {
   const plg = require('pluga-plg');
   const axiosDebug = require('axios-debug');

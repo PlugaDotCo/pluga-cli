@@ -16,24 +16,21 @@
     }
   },
   "authentication": {
-    "type": "basic_auth",
+    "type": "pass_through_header",
     "fields": [
       {
-        "name": "api_key",
-        "label": "API key",
-        "mapping": "username",
+        "name": "access_token",
+        "label": "Your access token",
+        "mapping": "Authorization",
+        "prefix": "Bearer",
         "type": "text"
-      },
-      {
-        "name": "api_secret",
-        "label": "API secret",
-        "mapping": "password",
-        "type": "password"
       }
     ],
     "ping_request": {
       "method": "/ping",
-      "params": { "limit": 1 }
+      "params": {
+        "limit": 1
+      }
     }
   }
 }

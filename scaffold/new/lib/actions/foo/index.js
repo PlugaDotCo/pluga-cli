@@ -18,14 +18,13 @@ exports.handle = function (plg, event) {
    *
    * return plg.axios({
    *   method: 'post',
-   *   url: event.meta.baseURI + '/foo',
-   *   auth: {
-   *     username: event.auth.api_key,
-   *     password: event.auth.api_secret
+   *   url: `${event.meta.baseURI}/foo`,
+   *   headers: {
+   *     Authorization: `Bearer ${event.auth.access_token}`,
    *   },
    *   data: {
    *     arg: event.input.a
-   *   }
+   *   },
    * }).then(res => res.data).catch((err) => {
    *   throw new Error(err.response.data.error);
    * });

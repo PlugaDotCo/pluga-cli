@@ -8,8 +8,7 @@ const event = {
     baseURI: process.env.BASE_URI
   },
   auth: {
-    api_key: process.env.API_KEY,
-    api_secret: process.env.API_SECRET
+    access_token: process.env.ACCESS_TOKEN,
   },
   input: {}
 };
