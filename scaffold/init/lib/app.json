@@ -1,5 +1,6 @@
 {
   "app_id": "{{appId}}",
+  "version": "0.0.1",
   "name": "{{appName}}",
   "color": "#000000",
   "description": {

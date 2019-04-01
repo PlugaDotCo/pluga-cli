@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/PlugaDotCo/pluga-cli#readme",
   "dependencies": {
+    "archiver": "^3.0.0",
     "commander": "^2.19.0",
     "glob": "^7.1.3",
     "mocha": "^6.0.2",
