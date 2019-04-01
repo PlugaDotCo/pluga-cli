@@ -13,7 +13,7 @@
  *
  * @returns {Promise} Promise object represents an array of resources to handle.
  */
-exports.handle = function (plg, event) {
+exports.handle = (plg, event) => {
   /**
    * Use plg.axios for HTTP requests
    *

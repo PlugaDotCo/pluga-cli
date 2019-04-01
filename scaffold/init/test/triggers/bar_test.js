@@ -1,16 +1,16 @@
 const plg = require('pluga-plg');
-const expect = require('chai').expect;
+const { expect } = require('chai');
 
 const trigger = require('../../lib/triggers/bar');
 
 const event = {
   meta: {
-    baseURI: process.env.BASE_URI
+    baseURI: process.env.BASE_URI,
   },
   auth: {
     access_token: process.env.ACCESS_TOKEN,
   },
-  input: {}
+  input: {},
 };
 
 describe('Trigger: Bar', function () {
@@ -23,6 +23,6 @@ describe('Trigger: Bar', function () {
      *  done();
      * }).catch(done);
      */
-    done()
+    done();
   });
 });

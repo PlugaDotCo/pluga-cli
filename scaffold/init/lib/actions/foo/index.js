@@ -12,7 +12,7 @@
  *
  * @returns {Promise} Promise object represents the action result.
  */
-exports.handle = function (plg, event) {
+exports.handle = (plg, event) => {
   /**
    * Use `plg.axios` for HTTP requests
    *

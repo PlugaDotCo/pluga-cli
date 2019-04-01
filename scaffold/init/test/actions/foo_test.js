@@ -1,18 +1,18 @@
 const plg = require('pluga-plg');
-const expect = require('chai').expect;
+const { expect } = require('chai');
 
 const action = require('../../lib/actions/foo');
 
 const event = {
   meta: {
-    baseURI: process.env.BASE_URI
+    baseURI: process.env.BASE_URI,
   },
   auth: {
     access_token: process.env.ACCESS_TOKEN,
   },
   input: {
-    a: 'Example'
-  }
+    a: 'Example',
+  },
 };
 
 describe('Action: Foo', function () {
