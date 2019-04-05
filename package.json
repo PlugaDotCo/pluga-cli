@@ -9,19 +9,21 @@
   "directories": {
     "lib": "lib"
   },
+  "engines": {
+    "node": ">=8.10"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/**/*.js",
+    "pluga": "bin/pluga.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PlugaDotCo/pluga-cli.git"
-  },
+  "repository": "PlugaDotCo/pluga-cli",
   "keywords": [
     "pluga",
     "cli"
   ],
   "author": "leocamelo",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/PlugaDotCo/pluga-cli/issues"
   },
