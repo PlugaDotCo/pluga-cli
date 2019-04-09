@@ -4,7 +4,7 @@
   "description": "Pluga developer platform cli",
   "main": "lib/index.js",
   "bin": {
-    "pluga-cli": "pluga.js"
+    "pluga-cli": "bin/pluga.js"
   },
   "directories": {
     "lib": "lib"
