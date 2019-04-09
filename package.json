@@ -1,10 +1,10 @@
 {
   "name": "pluga-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pluga developer platform cli",
   "main": "lib/index.js",
   "bin": {
-    "pluga-cli": "bin/pluga.js"
+    "pluga": "bin/pluga.js"
   },
   "directories": {
     "lib": "lib"
@@ -14,8 +14,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint lib/**/*.js",
-    "pluga": "bin/pluga.js"
+    "lint": "eslint lib/**/*.js"
   },
   "repository": "PlugaDotCo/pluga-cli",
   "keywords": [
