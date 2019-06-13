@@ -1,6 +1,6 @@
 {
   "name": "pluga-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Pluga developer platform cli",
   "main": "lib/index.js",
   "bin": {
@@ -22,7 +22,7 @@
     "cli"
   ],
   "author": "leocamelo",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PlugaDotCo/pluga-cli/issues"
   },
@@ -39,6 +39,6 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint-plugin-import": "^2.17.3"
   }
 }
