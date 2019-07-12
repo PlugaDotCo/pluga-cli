@@ -1,6 +1,6 @@
 {
   "name": "pluga-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Pluga developer platform cli",
   "main": "lib/index.js",
   "bin": {
@@ -37,8 +37,8 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3"
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0"
   }
 }
