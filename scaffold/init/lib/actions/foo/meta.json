@@ -1,12 +1,6 @@
 {
-  "name": {
-    "pt_BR": "Foo",
-    "en": "Foo"
-  },
-  "description": {
-    "pt_BR": "Foo description",
-    "en": "Foo description"
-  },
+  "name": "Foo",
+  "description": "Foo description",
   "action_fields": {
     "fields": [
       {
@@ -20,7 +14,6 @@
           "en": "'A' field description"
         },
         "required": true,
-        "visible": true,
         "advanced": false,
         "field_type": "custom",
         "data_type": "string"
