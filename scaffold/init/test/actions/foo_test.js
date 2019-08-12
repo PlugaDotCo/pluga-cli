@@ -25,6 +25,5 @@ describe('Action: Foo', function () {
      *  done();
      * }).catch(done);
      */
-    done();
   });
 });

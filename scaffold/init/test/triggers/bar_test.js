@@ -23,6 +23,5 @@ describe('Trigger: Bar', function () {
      *  done();
      * }).catch(done);
      */
-    done();
   });
 });
