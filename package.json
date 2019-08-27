@@ -28,17 +28,17 @@
   },
   "homepage": "https://github.com/PlugaDotCo/pluga-cli#readme",
   "dependencies": {
-    "archiver": "^3.0.0",
-    "cfonts": "^2.4.3",
-    "commander": "^2.20.0",
+    "archiver": "^3.1.1",
+    "cfonts": "^2.4.5",
+    "commander": "^3.0.0",
     "glob": "^7.1.4",
-    "mocha": "^6.1.4",
-    "mustache": "^3.0.1",
+    "mocha": "^6.2.0",
+    "mustache": "^3.0.3",
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
+    "eslint": "^6.2.2",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.18.2"
   }
 }
