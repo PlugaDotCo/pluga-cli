@@ -4,14 +4,14 @@ Plataforma de aplicação da Pluga.
 
 ## Instalando
 
-Pluga CLI é desenvolvida em Node.js `v8.10`. É provável que funcione em todas
+Pluga CLI é desenvolvida em Node.js `v10.16`. É provável que funcione em todas
 as versões posteriores, porém é recomendado o uso dessa versão.
 
 Exemplo de instalação com [nvm](https://github.com/creationix/nvm)
 
 ```sh
-$ nvm install v8.10
-$ nvm use 8.10
+$ nvm install --lts=dubnium
+$ nvm use --lts=dubnium
 $ npm install -g pluga-cli
 $ pluga --help
 ```

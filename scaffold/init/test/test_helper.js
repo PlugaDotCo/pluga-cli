@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+
 /**
  * Place your global test hooks here.
  *
