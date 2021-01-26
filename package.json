@@ -1,6 +1,6 @@
 {
   "name": "pluga-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pluga developer platform cli",
   "main": "lib/index.js",
   "bin": {
