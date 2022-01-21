@@ -24,8 +24,8 @@ exports.handle = (plg, event) => {
    *   headers: {
    *     Authorization: `Bearer ${event.auth.access_token}`,
    *   },
-   * }).then(res => res.data).catch((err) => {
-   *   throw new Error(err.response.data.error);
+   * }).then((res) => res.data).catch((err) => {
+   *   throw plg.errors.error(err.response.data.error);
    * });
    */
 };

@@ -26,8 +26,8 @@ exports.handle = (plg, event) => {
    *   data: {
    *     arg: event.input.a
    *   },
-   * }).then(res => res.data).catch((err) => {
-   *   throw new Error(err.response.data.error);
+   * }).then((res) => res.data).catch((err) => {
+   *   throw plg.errors.error(err.response.data.error);
    * });
    */
 };

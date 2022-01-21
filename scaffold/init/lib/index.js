@@ -22,7 +22,8 @@ exports.ping = (plg, event) => {
    *   headers: {
    *     Authorization: `Bearer ${event.auth.access_token}`,
    *   },
-   * }).then(res => { status: 200, result: { auth: 'OK' } })
-   *   .catch((err) => { status: 401, result: 'Not authorized' });
+   * }).then((res) => ({ status: 200, result: { auth: 'OK' } })).catch((err) => {
+   *   throw plg.errors.error({ status: 401, result: 'Not authorized' });
+   * });
    */
 };
