@@ -1,4 +1,3 @@
-
 /**
  * App handler
  *
@@ -12,13 +11,14 @@
  *
  * @returns {Promise} Promise object represents an array of resources to handle.
  */
+
 exports.ping = (plg, event) => {
   /**
    * Use plg.axios for HTTP requests
    *
    * return plg.axios({
    *   method: 'get',
-   *   url: `${event.meta.baseURI}/bar`,
+   *   url: `${event.meta.baseURI}/ping`,
    *   headers: {
    *     Authorization: `Bearer ${event.auth.access_token}`,
    *   },

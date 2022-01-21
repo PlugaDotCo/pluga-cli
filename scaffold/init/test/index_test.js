@@ -1,7 +1,7 @@
 const plg = require('pluga-plg');
 const { expect } = require('chai');
 
-const trigger = require('../../lib/triggers/bar');
+const action = require('../../lib/actions/foo');
 
 const event = {
   meta: {
@@ -10,16 +10,15 @@ const event = {
   auth: {
     access_token: process.env.ACCESS_TOKEN,
   },
-  input: {},
 };
 
-describe('Trigger: Bar', function () {
-  it('test your trigger handle here', function (done) {
+describe('App: Ping', function () {
+  it('test your action handle here', function (done) {
     /**
      * Test with local example `event`
      *
-     * trigger.handle(plg, event).then((result) => {
-     *  expect(result).to.be.an('array');
+     * action.handle(plg, event).then((result) => {
+     *  expect(result).to.not.eq(null);
      *  done();
      * }).catch(done);
      */

@@ -20,8 +20,8 @@ describe('Action: Foo', function () {
     /**
      * Test with local example `event`
      *
-     * action.handle(plg, event).then((foo) => {
-     *  expect(foo).to.not.be.null;
+     * action.handle(plg, event).then((result) => {
+     *  expect(result).to.not.eq(null);
      *  done();
      * }).catch(done);
      */
