@@ -1,5 +1,5 @@
 /**
- * Trigger handler
+ * Helper method handler
  *
  * @param {object} plg - Pluga developer platform toolbox.
  * @param {object} plg.axios - [axios](https://github.com/axios/axios)
@@ -31,18 +31,5 @@ exports.handle = (plg, event) => {
 };
 
 exports.meta = {
-  name: 'Bar',
-  description: 'Bar description',
-  trigger_fields: {
-    type: 'local',
-    fields: [
-      {
-        key: 'b',
-        name: 'B',
-        field_type: 'string',
-      },
-    ],
-  },
-  idempotent: ['id'],
-  trigger_type: 'polling',
+  name: 'Baz',
 };

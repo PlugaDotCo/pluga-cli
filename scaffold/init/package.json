@@ -3,13 +3,13 @@
     "node": ">= 14"
   },
   "dependencies": {
-    "pluga-plg": "0.1.3"
+    "pluga-plg": "0.1.4"
   },
   "devDependencies": {
-    "chai": "4.3.4",
-    "dotenv": "14.2.0",
-    "eslint": "8.7.0",
+    "chai": "4.3.6",
+    "dotenv": "16.0.1",
+    "eslint": "8.17.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.25.4"
+    "eslint-plugin-import": "2.26.0"
   }
 }
