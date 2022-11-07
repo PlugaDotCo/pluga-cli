@@ -1,6 +1,6 @@
 {
   "name": "pluga-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Pluga developer platform cli",
   "main": "lib/index.js",
   "bin": {
@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": ">= 14"
+    "node": ">= 16"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,16 +28,14 @@
   },
   "homepage": "https://github.com/PlugaDotCo/pluga-cli#readme",
   "dependencies": {
-    "archiver": "^5.3.1",
-    "cfonts": "^3.1.0",
-    "commander": "^9.3.0",
+    "cfonts": "^3.1.1",
+    "commander": "^9.4.1",
     "glob": "^8.0.3",
-    "mocha": "^10.0.0",
-    "mustache": "^4.2.0",
-    "request": "^2.88.2"
+    "mocha": "^10.1.0",
+    "mustache": "^4.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.17.0",
+    "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
   }

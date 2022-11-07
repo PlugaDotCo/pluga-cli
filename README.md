@@ -4,14 +4,14 @@ Plataforma de aplicação da Pluga.
 
 ## Instalando
 
-Pluga CLI é desenvolvida em Node.js `v10.16`. É provável que funcione em todas
+Pluga CLI é desenvolvida em Node.js `v16`. É provável que funcione em todas
 as versões posteriores, porém é recomendado o uso dessa versão.
 
 Exemplo de instalação com [nvm](https://github.com/creationix/nvm)
 
 ```sh
-$ nvm install --lts=dubnium
-$ nvm use --lts=dubnium
+$ nvm install --lts=gallium
+$ nvm use --lts=gallium
 $ npm install -g pluga-cli
 $ pluga --help
 ```
@@ -44,18 +44,3 @@ O comando `test` roda todos os testes do seu app usando o framework
 [mocha](https://github.com/mochajs/mocha). Você pode adicionar um
 [glob](https://en.wikipedia.org/wiki/Glob_%28programming%29) como parâmetro
 para filtrar os testes que deseja rodar (ex: `$ pluga test test/triggers/*`).
-
-### push
-
-```sh
-$ pluga push my-contact-email@example.com
-```
-
-O comando `push` realiza o build e upload do seu app para a Pluga. É muito
-importante que preencha o email de contato ao realizar o push, pois é com esse
-email que a equipe da Pluga irá entrar em contato para avançar com a implantação
-do seu app na plataforma. (ex: `$ pluga push dinesh@piedpiper.com`)
-
-Não se esqueça de preencher o campo `version` no arquivo **app.json**, assim a
-equipe da Pluga consegue entender a evolução do seu app. Recomendamos que use
-[semver](https://semver.org).
