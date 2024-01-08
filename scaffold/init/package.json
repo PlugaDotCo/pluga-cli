@@ -1,15 +1,15 @@
 {
   "engines": {
-    "node": ">= 16"
+    "node": ">= 18"
   },
   "dependencies": {
-    "pluga-plg": "0.1.4"
+    "pluga-plg": "0.1.5"
   },
   "devDependencies": {
-    "chai": "4.3.7",
-    "dotenv": "16.0.3",
-    "eslint": "8.27.0",
+    "chai": "5.0.0",
+    "dotenv": "16.3.1",
+    "eslint": "8.56.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.26.0"
+    "eslint-plugin-import": "2.29.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "pluga-cli",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Pluga developer platform cli",
   "main": "lib/index.js",
   "bin": {
@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": ">= 16"
+    "node": ">= 18"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
