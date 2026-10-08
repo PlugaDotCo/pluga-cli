@@ -34,13 +34,18 @@ Por padrão, o nome do seu app será a versão *CamelCase* do nome da pasta cria
 (ex: "PiedPiper"). Você pode sobrescrever esse comportamento com a opção
 `--app-name`.
 
+Você pode escolher a suíte de testes do app com a opção `-t`:
+`mocha` (padrão) ou `vitest` (ex: `$ pluga init pied_piper -t vitest`).
+
 ### test
 
 ```sh
 $ pluga test
 ```
 
-O comando `test` roda todos os testes do seu app usando o framework
-[mocha](https://github.com/mochajs/mocha). Você pode adicionar um
+O comando `test` roda todos os testes do seu app, identificando automaticamente
+a suíte usada: se o app tiver um `vitest.config.mjs`, roda com
+[vitest](https://vitest.dev);
+caso contrário, com [mocha](https://github.com/mochajs/mocha). Você pode adicionar um
 [glob](https://en.wikipedia.org/wiki/Glob_%28programming%29) como parâmetro
 para filtrar os testes que deseja rodar (ex: `$ pluga test test/triggers/*`).
