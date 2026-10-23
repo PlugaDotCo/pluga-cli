@@ -35,7 +35,7 @@ Por padrão, o nome do seu app será a versão *CamelCase* do nome da pasta cria
 `--app-name`.
 
 Você pode escolher a suíte de testes do app com a opção `-t`:
-`mocha` (padrão) ou `vitest` (ex: `$ pluga init pied_piper -t vitest`).
+`vitest` (padrão) ou `mocha` (ex: `$ pluga init pied_piper -t mocha`).
 
 ### test
 
