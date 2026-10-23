@@ -21,13 +21,14 @@
         "sourceType": "module"
       },
       "rules": {
-        "import/no-unresolved": ["error", { "ignore": ["^vitest/"] }]
+        "import/no-unresolved": ["error", { "ignore": ["^vitest/", "^dotenv/"] }]
       }
     }
   ],
 {{/vitest}}
   "rules": {
     "func-names": "off",
+    "import/no-unresolved": ["error", { "ignore": ["^dotenv/"] }],
     "no-await-in-loop": "off",
     "no-console": "off",
     "no-param-reassign": "off",

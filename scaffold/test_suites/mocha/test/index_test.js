@@ -1,7 +1,7 @@
 const plg = require('pluga-plg');
 const { expect } = require('chai');
 
-const action = require('../../lib/actions/foo');
+const app = require('../lib');
 
 const event = {
   meta: {
@@ -13,14 +13,12 @@ const event = {
 };
 
 describe('App: Ping', function () {
-  it('test your action handle here', function (done) {
+  it('test your app ping here', async function () {
     /**
      * Test with local example `event`
      *
-     * action.handle(plg, event).then((result) => {
-     *  expect(result).to.not.eq(null);
-     *  done();
-     * }).catch(done);
+     * const result = await app.ping(plg, event);
+     * expect(result).to.not.eq(null);
      */
   });
 });

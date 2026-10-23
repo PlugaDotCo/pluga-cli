@@ -14,14 +14,12 @@ const event = {
 };
 
 describe('Trigger: Bar', function () {
-  it('test your trigger handle here', function (done) {
+  it('test your trigger handle here', async function () {
     /**
      * Test with local example `event`
      *
-     * trigger.handle(plg, event).then((result) => {
-     *  expect(result).to.be.an('array');
-     *  done();
-     * }).catch(done);
+     * const result = await trigger.handle(plg, event);
+     * expect(result).to.be.an('array');
      */
   });
 });

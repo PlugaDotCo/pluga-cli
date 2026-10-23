@@ -14,14 +14,12 @@ const event = {
 };
 
 describe('Helper method: Baz', function () {
-  it('test your helper handle here', function (done) {
+  it('test your helper handle here', async function () {
     /**
      * Test with local example `event`
      *
-     * helper.handle(plg, event).then((result) => {
-     *  expect(result).to.be.an('array');
-     *  done();
-     * }).catch(done);
+     * const result = await helper.handle(plg, event);
+     * expect(result).to.be.an('array');
      */
   });
 });

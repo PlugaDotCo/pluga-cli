@@ -16,14 +16,12 @@ const event = {
 };
 
 describe('Action: Foo', function () {
-  it('test your action handle here', function (done) {
+  it('test your action handle here', async function () {
     /**
      * Test with local example `event`
      *
-     * action.handle(plg, event).then((result) => {
-     *  expect(result).to.not.eq(null);
-     *  done();
-     * }).catch(done);
+     * const result = await action.handle(plg, event);
+     * expect(result).to.not.eq(null);
      */
   });
 });
